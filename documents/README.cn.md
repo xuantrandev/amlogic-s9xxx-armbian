@@ -378,7 +378,7 @@ armbian-install
 
 ```yaml
 - name: Compile the kernel
-  uses: ophub/amlogic-s9xxx-armbian@main
+  uses: xuantrandev/amlogic-s9xxx-armbian@main
   with:
     build_target: kernel
     kernel_version: 5.15.1_6.1.1

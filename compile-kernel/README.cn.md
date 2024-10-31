@@ -63,7 +63,7 @@ sudo apt-get install -y $(cat compile-kernel/tools/script/ubuntu2204-build-armbi
 
 ```yaml
 - name: Compile the kernel
-  uses: ophub/amlogic-s9xxx-armbian@main
+  uses: xuantrandev/amlogic-s9xxx-armbian@main
   with:
     build_target: kernel
     kernel_version: 6.1.y_5.15.y
