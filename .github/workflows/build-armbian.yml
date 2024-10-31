@@ -229,7 +229,7 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - xuantrandev
 
 env:
   TZ: America/New_York
