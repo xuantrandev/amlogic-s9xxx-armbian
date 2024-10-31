@@ -225,11 +225,12 @@ on:
       builder_name:
         description: "Set Armbian builder signature."
         required: false
-        default: "dy008"
+        default: "xuantrandev"
         type: choice
         options:
           - ophub
           - dy008
+          - xuantrandev
 
 env:
   TZ: America/New_York

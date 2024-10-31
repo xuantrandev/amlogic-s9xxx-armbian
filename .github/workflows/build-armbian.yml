@@ -227,7 +227,7 @@ on:
         default: "ophub"
         type: choice
         options:
-          - ophub
+          - xuantrandev
           - angel
           - xuantrandev
 
